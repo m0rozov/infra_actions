@@ -6,5 +6,5 @@ app_name = 'infra_app'
 
 urlpatterns = [
     path('', index, name='index'),
-    path('second/', second_page, name='second_page'),
+    path('second_page/', second_page, name='second_page'),
 ]
